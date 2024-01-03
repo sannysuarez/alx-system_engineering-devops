@@ -20,7 +20,7 @@ The database stores and manages the structured data for your website. In this ca
 ## 7. Server Communication with User's Computer
 The communication between the server (8.8.8.8) and the user's computer occurs over the internet using the HTTP protocol. When a user requests a website, their browser sends an HTTP request to the server, and the server responds with an HTTP response containing the requested content.
 
-##Issues with the Proposed Infrastructure
+# Issues with the Proposed Infrastructure
 ## 1. Single Point of Failure (SPOF)
 The infrastructure has a single server that hosts all components. If this server fails or experiences issues, the entire website goes down. To address this, you could consider distributing components across multiple servers or using cloud services to ensure redundancy.
 
